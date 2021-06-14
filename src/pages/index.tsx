@@ -4,12 +4,11 @@ import {
 } from '@chakra-ui/react'
 
 import { Container } from '../components/Container'
+import { TopNav } from '../components/TopNav'
 
 const Index = () => (
   <Container height="100vh">
-      <Text paddingTop="4">
-        Welcome to the new version of Tribe!
-      </Text>
+      <TopNav />
   </Container>
 )
 
